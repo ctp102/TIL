@@ -16,7 +16,7 @@ HandlerExceptionResolver 인터페이스를 구현하고 resolveException 메서
 
 ### HandlerExceptionResolver 사용 전 MVC 패턴 동작과정
 
-![img.png](img.png)
+![img.png](img/img.png)
 
 1. DispatcherServlet -> preHandle
 2. 핸들러 어댑터 -> 핸들러 컨트롤러 -> 예외 발생!!
@@ -24,7 +24,7 @@ HandlerExceptionResolver 인터페이스를 구현하고 resolveException 메서
 
 ### HandlerExceptionResolver 사용 후 MVC 패턴 동작과정
 
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 
 1. DispatcherServlet -> preHandle
 2. 핸들러 어댑터 -> 핸들러 컨트롤러 -> 예외 발생!!
