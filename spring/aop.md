@@ -67,3 +67,5 @@ public class ProxyFactoryTest {
     }
 }
 ```
+
+- 스프링부트 2.0부터 기본적으로 AOP를 사용할 때 proxyFactory.setProxyTargetClass(true); 옵션을 주어 인터페이스가 있어도 CGLIB 프록시를 사용한다.
